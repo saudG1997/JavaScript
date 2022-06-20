@@ -1,0 +1,3 @@
+The <script> Tag:
+In HTML, JavaScript code is inserted between <script> and </script> tags.
+
