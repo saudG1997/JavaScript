@@ -9,10 +9,11 @@ The value of a JavaScript Variable can be changed during the execution of a prog
 ###### Declaring Variables
 ---------------------------------------------------------------------------
     keyword    |     identifier   |   assignment_operator  |   literal     |
+
+    example:
+            var a = 7;
+            let a = 7;
 ---------------------------------------------------------------------------
-=======>
-var a = 7;
-let a = 7;
 
 ### Rules for choosing Variable names:
 -> letters, digits, underscores and $ sign allowed.
