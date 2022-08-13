@@ -12,7 +12,11 @@ The value of a JavaScript Variable can be changed during the execution of a prog
             var a = 7;
             let a = 7;
 
-            (where, keyword -> var, let, identifier -> a, assignment_operator -> = and  literal -> 7 )
+            (where, 
+                var & let are keyword,
+                a are identifier,
+                = are assignment_operator and 
+                7 are literal )
 ---------------------------------------------------------------------------
 
 ### Rules for choosing Variable names:
