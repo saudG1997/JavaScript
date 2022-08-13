@@ -7,12 +7,12 @@ A Variable is a container that stores a value. This is very similar to the conta
 The value of a JavaScript Variable can be changed during the execution of a program
 
 ###### Declaring Variables
----------------------------------------------------------------------------
-    keyword    |     identifier   |   assignment_operator  |   literal     |
-
+--------------------------------------------------------------------------
     example:
             var a = 7;
             let a = 7;
+
+            (where, keyword -> var, let, identifier -> a, assignment_operator -> = and  literal -> 7 )
 ---------------------------------------------------------------------------
 
 ### Rules for choosing Variable names:
