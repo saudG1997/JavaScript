@@ -5,7 +5,7 @@ Programming is the act of constructing a program, a set of precise instructions 
 
 ## what is ECMAScript?
 ECMAScript is a standard on which JavaScript is based. It wsa created to ensure that different documents on JavaScript are actually talking about the same language.
-JavaScript and ECMAScript can almost always be used interchangably JavaScript is very literal in what it allows.
+JavaScript and ECMAScript can almost always be used interchangably JavaScript is very liberal in what it allows.
 
 ## How to execute JavaScript?
 JavaScript can be executed right inside one's browser. You can open the JavaScript console and start writing JavaScript there.
