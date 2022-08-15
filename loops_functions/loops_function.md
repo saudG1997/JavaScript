@@ -1,6 +1,6 @@
 # Loops and Functions
 We use loops to perform repeated actions.
-###### for example
+#### for example
     If you are assigned a task of printing numbers from 1 to 100, it will be very hectic to do it manually, loops help us automate such tasks.
 
 ## Types of loops in JavaScript
