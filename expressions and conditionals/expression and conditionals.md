@@ -120,4 +120,4 @@ Evaluates a condition and executes a block of code based on the condition.
 example syntax of ternary operator looks like this:
         (marks > 10) ? 'Yes' : 'No'
 
-    (: if marks are greater than 10, you are passed else not)
+note(: if marks are greater than 10, you are passed else not)
