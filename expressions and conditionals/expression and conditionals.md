@@ -4,7 +4,7 @@ A fragment of code that produces a value is called an expression. Every value wr
 for example: 77 or "apple"
 
 # Operators in JavaScript
-#### Arithmetic Operators
+### Arithmetic Operators
 
 | Operator  |  Meaning / name            |
 |-----------|----------------------------|
@@ -18,7 +18,7 @@ for example: 77 or "apple"
 |    --     |   Decrement                |
 
 
-#### assignment Operators
+### assignment Operators
 
 | Operator  |  Example                   |
 |-----------|----------------------------|
@@ -32,7 +32,7 @@ for example: 77 or "apple"
 
 
 
-#### Comparison Operators
+### Comparison Operators
 
 | Operator  |  Meaning / name                      |
 |-----------|--------------------------------------|
@@ -47,7 +47,7 @@ for example: 77 or "apple"
 |     ?     |   turnary Operator                   |
 
 
-#### Logical Operators
+### Logical Operators
 
 | Operator  |  Meaning / name                      |
 |-----------|--------------------------------------|
