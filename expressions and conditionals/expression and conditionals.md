@@ -92,7 +92,7 @@ In JavaScript we have three forms of if ... else Statement.
 
 ### If Statement
 The if Statement in JavaScript looks like this:
-    Syntax:
+###### Syntax:
 
         if(condition){
             // execute this code
@@ -103,7 +103,7 @@ if the condition is evaluated to true, the code inside the body of if is execute
 
 ### if_else Statement
 The if Statement can have an optional else clause.
-    Syntax:
+###### Syntax:
 
         if(condition){
             // block of code, if condition true
@@ -116,7 +116,7 @@ if the condition is true, code inside if is executed otherwise else block is exe
 
 ### if_else_if Statement
 Sometimes we might want to keep rechecking a set of conditions one by one until one matches.
-    Syntax:
+###### Syntax:
         if(age > 0){
             console.log("A valid age");
         }
