@@ -5,7 +5,7 @@ for example: 77 or "apple"
 
 # Operators in JavaScript
 #### Arithmetic Operators
-|-----------|----------------------------|
+
 | Operator  |  Meaning / name            |
 |-----------|----------------------------|
 |    +      |   Addition                 |
