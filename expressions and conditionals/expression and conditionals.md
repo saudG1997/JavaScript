@@ -63,3 +63,61 @@ let switch = true;
 
 
 ## Conditional Statements
+Sometimes we might have to execute a block of code based off some condition.
+For example a prompt might ask for the age of the user and if its greater than 18, display a special message.
+
+In JavaScript we have three forms of if ... else Statement.
+* if Statement
+* if_else Statement
+* if_else_if Statement
+
+### If Statement
+The if Statement in JavaScript looks like this:
+    Syntax:
+
+        if(condition){
+            // execute this code
+        }
+
+The if Statement evaluates the condition inside the ().
+if the condition is evaluated to true, the code inside the body of if is executed else the code is not executed.
+
+### if_else Statement
+The if Statement can have an optional else clause.
+    Syntax:
+
+        if(condition){
+            // block of code, if condition true
+        }
+        else{
+            // block of code, if condition false
+        }
+
+if the condition is true, code inside if is executed otherwise else block is executed.
+
+### if_else_if Statement
+Sometimes we might want to keep rechecking a set of conditions one by one until one matches.
+    Syntax:
+
+        if(age > 0){
+            console.log("A valid age");
+        }
+        else if(age > 10 && age < 18){
+            console.log("But you are a kid");
+        }
+        else if(age > 18){
+            console.log("you are not a kid");
+        }
+        else{
+            console.log("Invalid age");
+        }
+
+
+## JavaScript ternary operator
+Evaluates a condition and executes a block of code based on the condition.
+        syntax:
+            condition ? exp1 : exp2
+example syntax of ternary operator looks like this:
+        (marks > 10) ? 'Yes' : 'No'
+
+    (: if marks are greater than 10, you are passed else not)
