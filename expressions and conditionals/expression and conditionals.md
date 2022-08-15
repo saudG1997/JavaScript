@@ -48,3 +48,18 @@ example:
 
 
 ## Comments in JavaScript
+Sometimes we want our programs to contain a text which is not executed by the JS Engine such a text is called comment in JavaScript.
+A comment in JavaScript can be written as follows:
+let a = 2;  // This is a sinngle linne comment
+
+/* I am a ....
+multiline comment ...
+example..... */
+
+Sometimes comments are used to prevent the execution of some line of code
+
+let switch = true;
+// switch = false;  ----> commented line can't executed
+
+
+## Conditional Statements
