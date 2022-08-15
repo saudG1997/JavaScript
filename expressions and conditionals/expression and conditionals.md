@@ -16,10 +16,10 @@ for example: 77 or "apple"
 |    %      |   Modulus                  |
 |    ++     |   Increment                |
 |    --     |   Decrement                |
-|-----------|----------------------------|
+
 
 #### assignment Operators
-|-----------|----------------------------|
+
 | Operator  |  Example                   |
 |-----------|----------------------------|
 |    =      |     x = y                  |
@@ -29,11 +29,11 @@ for example: 77 or "apple"
 |    /=     |     x = x / y              |
 |    %=     |     x = x % y              |
 |    **=    |     x = x ** y             |
-|-----------|----------------------------|
+
 
 
 #### Comparison Operators
-|-----------|--------------------------------------|
+
 | Operator  |  Meaning / name                      |
 |-----------|--------------------------------------|
 |    ==     |   equal to                           |
@@ -45,16 +45,16 @@ for example: 77 or "apple"
 |    >=     |   greater than or equal to           |
 |    <=     |   less than or equal to              |
 |     ?     |   turnary Operator                   |
-|-----------|--------------------------------------|
+
 
 #### Logical Operators
-|-----------|--------------------------------------|
+
 | Operator  |  Meaning / name                      |
 |-----------|--------------------------------------|
 |    &&     |   Logical AND                        |
 |    ||     |   Logical OR                         |
 |    !      |   Logical NOT                        |
-|-----------|--------------------------------------|
+
 
 Apart from these, we also have type and bitwise operators. Bitwise operators perform bit by bit operations on numbers
 example:
