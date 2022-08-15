@@ -57,7 +57,7 @@ for example: 77 or "apple"
 
 
 Apart from these, we also have type and bitwise operators. Bitwise operators perform bit by bit operations on numbers.
-    example:
+###### example:
             7 + 8 = 15
             where,
                 7 and 8 are Operands
@@ -117,7 +117,6 @@ if the condition is true, code inside if is executed otherwise else block is exe
 ### if_else_if Statement
 Sometimes we might want to keep rechecking a set of conditions one by one until one matches.
     Syntax:
-
         if(age > 0){
             console.log("A valid age");
         }
@@ -134,7 +133,7 @@ Sometimes we might want to keep rechecking a set of conditions one by one until 
 
 ## JavaScript ternary operator
 Evaluates a condition and executes a block of code based on the condition.
-        syntax:
+###### syntax:
             condition ? exp1 : exp2
 
         example syntax of ternary operator looks like this:
