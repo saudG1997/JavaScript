@@ -34,7 +34,7 @@ Note: for-in loop also work with arrays which will be discussed in the later...
 
 ## The for-of loop
         - The Syntax of for-of loop looks like this:
-        
+
         for(variable of iterable){
             // code...
         }
@@ -44,4 +44,46 @@ Note: for-in loop also work with arrays which will be discussed in the later...
         iterable --- iterable data structure like arrays, strings etc.
 
 ## The while loop
+        - The Syntax of while loop looks like this:
 
+        while(condition){
+            // code to be executed
+        }
+
+        Note: if the condition never becomes false, the loop will never end and this might crash the runtime.
+
+## The do-while loop
+        - The do-while loop's syntax looks like this:
+
+        do{
+            // code to be executed
+            // executed at least  once
+        }while(condition)
+
+## Functions in JavaScript
+A JavaScript Functions is a block of code designed to perform a particular task.
+        Syntax:
+            Function myFunc(){
+                // code
+            }
+
+            // function with parameters
+            function lorienFunc(parameter1, parameter2){
+                // code
+                // here the parameters behave as local variables
+            }
+            lorienFunc(7,8) // function invocation
+
+            Note: Function invocation is a way to use the code inside the function
+
+A function can also return a value. the value is "returned" back to the caller
+
+const sum = (a,b) => {
+    let c = a+b;
+    return c;       // returns the sum
+}
+
+
+// another way to create and use the function
+let y = sum(1,3)
+console.log(y)      // prints 4
