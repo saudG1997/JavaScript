@@ -63,11 +63,11 @@ Note: if the condition never becomes false, the loop will never end and this mig
 ## Functions in JavaScript
 - A JavaScript Functions is a block of code designed to perform a particular task.
 
-    * Syntax:
-            function myFunc(){
-                // code
-            }
-            myFunc()
+        // Syntax:
+        function myFunc(){
+            // code
+        }
+        myFunc() // function call
 
 
         // function with parameters
