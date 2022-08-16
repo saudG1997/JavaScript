@@ -76,7 +76,7 @@ A JavaScript Functions is a block of code designed to perform a particular task.
 
 Note: Function invocation is a way to use the code inside the function
 
-A function can also return a value. the value is "returned" back to the caller
+- A function can also return a value. the value is "returned" back to the caller
 
         const sum = (a,b) => {
             let c = a+b;
