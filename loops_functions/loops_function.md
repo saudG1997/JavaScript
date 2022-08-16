@@ -61,7 +61,7 @@ Note: if the condition never becomes false, the loop will never end and this mig
         }while(condition)
 
 ## Functions in JavaScript
-A JavaScript Functions is a block of code designed to perform a particular task.
+- A JavaScript Functions is a block of code designed to perform a particular task.
         Syntax:
             Function myFunc(){
                 // code
