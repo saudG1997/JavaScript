@@ -50,7 +50,7 @@ Note: for-in loop also work with arrays which will be discussed in the later...
             // code to be executed
         }
 
-        Note: if the condition never becomes false, the loop will never end and this might crash the runtime.
+Note: if the condition never becomes false, the loop will never end and this might crash the runtime.
 
 ## The do-while loop
         - The do-while loop's syntax looks like this:
@@ -74,16 +74,16 @@ A JavaScript Functions is a block of code designed to perform a particular task.
             }
             lorienFunc(7,8) // function invocation
 
-            Note: Function invocation is a way to use the code inside the function
+Note: Function invocation is a way to use the code inside the function
 
 A function can also return a value. the value is "returned" back to the caller
 
-const sum = (a,b) => {
-    let c = a+b;
-    return c;       // returns the sum
-}
+        const sum = (a,b) => {
+            let c = a+b;
+            return c;       // returns the sum
+        }
 
 
-// another way to create and use the function
-let y = sum(1,3)
-console.log(y)      // prints 4
+        // another way to create and use the function
+        let y = sum(1,3)
+        console.log(y)      // prints 4
