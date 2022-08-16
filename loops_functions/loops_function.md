@@ -66,7 +66,6 @@ Note: if the condition never becomes false, the loop will never end and this mig
         Function myFunc(){
             // code
         }
-
         // function with parameters
         function lorienFunc(parameter1, parameter2){
             // code
