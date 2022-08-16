@@ -11,7 +11,7 @@ We use loops to perform repeated actions.
 * do-while loop : while loop variant which runs atleast once
 
 ## The for loop
-       - The Syntax of a for loop looks something like this:
+- The Syntax of a for loop looks something like this:
 
         for(statement1; statement2; statement3){
             // code to be executed
@@ -23,7 +23,7 @@ We use loops to perform repeated actions.
         - statement3 is executed everytime the loop body is executed
 
 ## The for-in loop
-        - The Syntax of for-in loop looks like this:
+- The Syntax of for-in loop looks like this:
 
         for(key in object){
             // code to be executed
@@ -33,7 +33,7 @@ Note: for-in loop also work with arrays which will be discussed in the later...
 
 
 ## The for-of loop
-        - The Syntax of for-of loop looks like this:
+- The Syntax of for-of loop looks like this:
 
         for(variable of iterable){
             // code...
@@ -44,7 +44,7 @@ Note: for-in loop also work with arrays which will be discussed in the later...
         iterable --- iterable data structure like arrays, strings etc.
 
 ## The while loop
-        - The Syntax of while loop looks like this:
+- The Syntax of while loop looks like this:
 
         while(condition){
             // code to be executed
@@ -53,7 +53,7 @@ Note: for-in loop also work with arrays which will be discussed in the later...
 Note: if the condition never becomes false, the loop will never end and this might crash the runtime.
 
 ## The do-while loop
-        - The do-while loop's syntax looks like this:
+- The do-while loop's syntax looks like this:
 
         do{
             // code to be executed
