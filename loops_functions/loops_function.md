@@ -62,17 +62,17 @@ Note: if the condition never becomes false, the loop will never end and this mig
 
 ## Functions in JavaScript
 - A JavaScript Functions is a block of code designed to perform a particular task.
-        Syntax:
-            Function myFunc(){
-                // code
-            }
+    Syntax:
+        Function myFunc(){
+            // code
+        }
 
-            // function with parameters
-            function lorienFunc(parameter1, parameter2){
-                // code
-                // here the parameters behave as local variables
-            }
-            lorienFunc(7,8) // function invocation
+        // function with parameters
+        function lorienFunc(parameter1, parameter2){
+            // code
+            // here the parameters behave as local variables
+        }
+        lorienFunc(7,8) // function invocation
 
 Note: Function invocation is a way to use the code inside the function
 
