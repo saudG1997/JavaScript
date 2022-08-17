@@ -36,4 +36,34 @@ Similarly we can use \"" inside a string with double quotes
 # String properties and methods
         1.let name = "lalit"
             name.length     //prints 5
+        
+        2. let name = "lalit"
+            name.toUpperCase()  // prints LALIT
+
+        3. let name = "Lalit"
+            name.toLowerCase()  // prints lalit
+        
+        4.let name = "lalit"
+            name.slice(2, 4)     //prints li
+            // (from 2 to 4, 4 not included)
+        
+        5. let name = "lalit"
+            name.slice(2)  // prints lit
+            // from 2 to end
+
+        6. let name = "Harry Shyam"
+            let newName = name.replace("Ram", "Sita")
+
+        7. let name1 = "Harry"
+            let name2 = "Naman"
+            let name3 = name1.concat(name2, "yes")
+                        // we can even use + operator
+        
+        8. let name = "     Harry   "
+            let newName = name.trim() // removes whitespaces
+
+* Strings are immutable inorder to access the Character at an index we use the following syntax
+        let name = "    Harry "
+            name[0] // prints H
+            name[1] // prints a
 
