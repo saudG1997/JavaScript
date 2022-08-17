@@ -28,8 +28,9 @@ Arrays can hold many values under a single name
 ## Array Methods
 #### There are some important array methods in JavaScript. some of them are as follows:
               
-* converts an array to a string of comma separated values
+
 ##### 1. toString()
+        //converts an array to a string of comma separated values
         let n = [1,7,9]
         n.toString()        // output: 1,7,9
 
