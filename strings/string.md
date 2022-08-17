@@ -21,3 +21,20 @@ We can insert variables directly in Template literal. This is called string inte
     // prints `This is a 'lorien`
 
 # Escape Sequence Characters
+If you try to print the following string, JavaScript will misunderstand it
+    let name = 'Adam D'Angelo'
+
+We can use single quote escape sequence to solve the problem
+    let name = 'Adam D\'Angelo'
+
+Similarly we can use \"" inside a string with double quotes
+
+Other escape sequence Characters are as follows
+\n --> newline
+\t --> tab
+\r --> carriage return
+
+# String properties and methods
+1. let name = "lalit"
+        name.length     //prints 5
+
