@@ -3,20 +3,20 @@ Strings are used to store and manipulate text. String can be created using the f
         let name = "Lorien" // creates a String
         name.length // This property prints length of the String
 
-Strings can also be created using single quotes
+        // Strings can also be created using single quotes
         let name = 'Lorien'
 
 ## Template literals
 Template literals use backtics instead of quotes to define a String
         let name = 'Lorien'
 
-With Template literals, it is possible to use both single as well as double quotes inside a String
+* With Template literals, it is possible to use both single as well as double quotes inside a String
         let sentence = ` The name "is" Lorien's`
         // ` is a backtics
         // "" is a double quote
         // '' is a single quote
 
-We can insert variables directly in Template literal. This is called string interpolation
+* We can insert variables directly in Template literal. This is called string interpolation
         let a = `This is ${name}`   // name is a variables
         // prints `This is a 'lorien`
 
@@ -24,17 +24,17 @@ We can insert variables directly in Template literal. This is called string inte
 If you try to print the following string, JavaScript will misunderstand it
         let name = 'Adam D'Angelo'
 
-We can use single quote escape sequence to solve the problem
+        // We can use single quote escape sequence to solve the problem
         let name = 'Adam D\'Angelo'
 
 Similarly we can use \"" inside a string with double quotes
 
-Other escape sequence Characters are as follows
+* Other escape sequence Characters are as follows
         \n --> newline
         \t --> tab
         \r --> carriage return
 
 # String properties and methods
-        let name = "lalit"
+        1.let name = "lalit"
             name.length     //prints 5
 
