@@ -25,18 +25,15 @@
 
 Arrays can hold many values under a single name
 
-## Array Methods
-#### There are some important array methods in JavaScript. some of them are as follows:
-              
+# Array Methods
+### There are some important array methods in JavaScript. some of them are as follows:           
 
 ##### 1. toString()
         // converts an array to a string of comma separated values
         let n = [1,7,9]
         n.toString()        // output: 1,7,9
 
-
 ##### 2.  join()
-
         // joins all the array elements using a separator
         let n = [7,9,13]
         n.join("-")         // output: 7-9-13
@@ -63,7 +60,6 @@ Arrays can hold many values under a single name
         let d = [7,8,9,10]
         delete d[1]         // delete is an operator
 
-        
 ##### 8. concat()
         // Used to join arrays to the given array
         let a1 = [1,2,3]
