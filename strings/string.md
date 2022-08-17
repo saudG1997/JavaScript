@@ -27,8 +27,7 @@ If you try to print the following string, JavaScript will misunderstand it
             let name = 'Adam D\'Angelo'
 
 Similarly we can use \"" inside a string with double quotes
-
-* Other escape sequence Characters are as follows
+###### Other escape sequence Characters are as follows
         \n --> newline
         \t --> tab
         \r --> carriage return
