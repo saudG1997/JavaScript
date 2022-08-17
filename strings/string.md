@@ -62,7 +62,7 @@ Similarly we can use \"" inside a string with double quotes
         8. let name = "     Harry   "
             let newName = name.trim() // removes whitespaces
 
-* Strings are immutable inorder to access the Character at an index we use the following syntax
+###### Strings are immutable inorder to access the Character at an index we use the following syntax:
         let name = "    Harry "
             name[0] // prints H
             name[1] // prints a
