@@ -1,5 +1,5 @@
 # String in JavaScripts
-Strings are used to store and manipulate text. String can be created using the following syntax:
+#### Strings are used to store and manipulate text. String can be created using the following syntax:
         let name = "Lorien" // creates a String
         name.length // This property prints length of the String
         // Strings can also be created using single quotes
