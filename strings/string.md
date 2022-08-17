@@ -21,7 +21,7 @@ Template literals use backtics instead of quotes to define a String
         // prints `This is a 'lorien`
 
 # Escape Sequence Characters
-If you try to print the following string, JavaScript will misunderstand it
+###### If you try to print the following string, JavaScript will misunderstand it
         let name = 'Adam D'Angelo'
         // We can use single quote escape sequence to solve the problem
             let name = 'Adam D\'Angelo'
