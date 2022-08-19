@@ -1,4 +1,4 @@
-# Arrays
+# -------------~~~~~~ "Arrays" ~~~~~~~~~~--------------------------
 ## Arrays are variables which can hold more than one value.
         const fruits = ["banana","apple","grapes"]
         const a1 = [7, "Harry", false]      // can be different types
