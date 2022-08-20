@@ -1,4 +1,5 @@
 # String in JavaScripts
+
 #### Strings are used to store and manipulate text. String can be created using the following syntax:
         let name = "Lorien" // creates a String
         name.length // This property prints length of the String
@@ -6,6 +7,7 @@
         let name = 'Lorien'
 
 ## Template literals
+
 ##### Template literals use backtics instead of quotes to define a String
         let name = 'Lorien'
 
@@ -21,6 +23,7 @@
         // prints `This is a 'lorien`
 
 # Escape Sequence Characters
+
 ##### If you try to print the following string, JavaScript will misunderstand it
         let name = 'Adam D'Angelo'
         // We can use single quote escape sequence to solve the problem
