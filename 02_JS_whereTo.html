@@ -33,40 +33,36 @@
 
     <!--
         JavaScript in <head> or <body>
-You can place any number of scripts in an HTML document.
-
-Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+        You can place any number of scripts in an HTML document.
+        Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
     -->
 
     <!--
         JavaScript in <head>
-In this example, a JavaScript function is placed in the <head> section of an HTML page.
-
-The function is invoked (called) when a button is clicked:
+        In this example, a JavaScript function is placed in the <head> section of an HTML page.
+        The function is invoked (called) when a button is clicked:
     -->
 
     <!-- script tag inside head see above.... -->
-<h2>Demo JavaScript in Head</h2>
+    <h2>Demo JavaScript in Head</h2>
+    <p id="demo2">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
 
-<p id="demo2">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
+    <!--
+        JavaScript in <body>
+        In this example, a JavaScript function is placed in the <body> section of an HTML page.
+        The function is invoked (called) when a button is clicked:
+    -->
+    <h2>Demo JavaScript in Body</h2>
+    <p id="demo3">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <script>
+    function myFunction() {
+    document.getElementById("demo3").innerHTML = "Paragraph changed.";
+    }
+    </script>
 
-<!--
-    JavaScript in <body>
-In this example, a JavaScript function is placed in the <body> section of an HTML page.
-
-The function is invoked (called) when a button is clicked:
--->
-<h2>Demo JavaScript in Body</h2>
-<p id="demo3">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
-<script>
-function myFunction() {
-  document.getElementById("demo3").innerHTML = "Paragraph changed.";
-}
-</script>
-
-<!-- External JavaScript -->
+    <!-- External JavaScript -->
     
 </body>
 </html>
