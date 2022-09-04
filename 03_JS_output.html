@@ -15,10 +15,33 @@
             > Writing into an alert box, using  window.alert().
             > Writing into the browser console, using  console.log().
     -->
-    <h2>What Can JavaScript Do?</h2>
-    <p id="demo">JavaScript can change HTML content.</p>
-    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <!-- Using innerHTML -->
+    <!-- 
+        To access an HTML element, JavaScript can use the document.getElementById(id) method.
+        The id attribute defines the HTML element. The innerHTML property defines the HTML content:
+    -->
+    <h2>My First Web Page</h2>
+    <p>My First Paragraph.</p>
+    <p id="demo1"></p>
+    <script>
+    document.getElementById("demo1").innerHTML = 5 + 6;
+    </script>
+    <!-- Changing the innerHTML property of an HTML element is a common way to display data in HTML. -->
 
-    
+    <!-- Using document.write() -->
+    <!-- For testing purposes, it is convenient to use document.write(): -->
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+    <p>Never call document.write after the document has finished loading.
+    It will overwrite the whole document.</p>
+    <script>
+    document.write(5 + 6);
+    </script>
+    <!-- Using document.write() after an HTML document is loaded, will delete all existing HTML: -->
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
+    <!-- The document.write() method should only be used for testing. -->
+
 </body>
 </html>
